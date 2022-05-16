@@ -8,13 +8,23 @@ input {
   text-align: center;
 }
 
-.videos {
-  display: flex; 
+.swiper {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.videos video {
+.swiper video {
   object-fit: cover;
-  width:25%;
-/* height:100%; */
+  width: 25%;
+  /* height:100%; */
+}
+
+.swiper {
+  background: red;
+}
+
+.swiper-wrapper {
+  background: green;
+
+  /*   height: 300px; */
 }

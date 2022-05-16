@@ -1,3 +1,12 @@
+<meta name="viewport" content="width=device-width; initial-scale=1; viewport-fit=cover">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- possible content values: default, black or black-translucent -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,10 +18,13 @@
 
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- Stylesheet   -->
+  <!-- Stylesheet  js swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
   <link rel="stylesheet" href="style.css">
 
   <!-- Scripts   -->
+  <script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script defer src="script.js"></script>
 
 </head>
@@ -26,11 +38,18 @@
   </form>
 
   <!-- Container for Gifs (videos)   -->
-  <div class="videos">
+  <!-- Main Container -->
+  <div class="swiper">
 
-    <!-- Dynamically insert videos     This one -->
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+
+      <!-- Content 1-->
+      <!--     <video class="swiper-slide" src="https://media.giphy.com/media/MXOjGeCm7oeaRaWSAN/giphy.mp4" autoplay loop></video> -->
+
+
+    </div>
   </div>
-
 
 </body>
 
